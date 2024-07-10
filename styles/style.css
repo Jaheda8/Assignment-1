@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Azeret Mono", monospace;
+    box-sizing: border-box;
+}
+
+/* nav section design  */
+.logo{
+    font-size: 28px;
+    font-weight: 900;
+}
+.nav-button{
+    padding: 17px 24px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* hero section design */
+.hero{
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+.hero-section-title{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero-section-button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 21px 24px;
+    border-radius: 5px;
+}
+
+/* common styles... */
+.description{
+    color:#0D1321 ;
+    font-size: 16px;
+}
+.title{
+    font-size: 32px;
+    color: #0D1321;
+    font-weight: 800px;
+}
+
+
+/* activists part */
+.activists-details{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding:100px 50px ;
+    background-color: #FaFAFb;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.info{
+    width: 60%;
+    text-align: left;
+}
+.single-activist{
+margin: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 30px 60px;
+  
+}
+.second-activist{
+    flex-direction: row-reverse;
+}
+
+
+/* ........insparation-section */
+
+.insparation-section{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.single-target{
+    display: flex;
+    /* justify-content: space-around; */
+  
+}
+.target-info{
+    padding: 50px 40px;
+    background-color: #ffffff;
+margin-right: 20px;
+border-radius: 10px;
+}
