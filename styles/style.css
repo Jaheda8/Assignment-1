@@ -18,6 +18,10 @@
     border-radius: 5px;
     border:1px solid#8b8e96;
     background-color:#ffffff;
+    cursor:pointer;
+}
+button{
+    cursor: pointer;
 }
 nav{
     display: flex;
@@ -170,30 +174,13 @@ line-height: 30px;
 }
 
 /* support section design */
-.support-background {
+.support-background{
     background-image: url("../assets/handshake.jpg");
     border-radius: 20px;
-    position: relative;
-  }
-  
-  .support-background::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here (0.5 is 50% opaque black) */
-    border-radius: inherit;
-  }
-  .support-background > h1{
-    color: #ffffff;
-
-  }
+  /* filter:brightness(60%); */
+}
 .text-white{
     color: #ffffff;
-    z-index: 99999;
 
 }
 
@@ -211,4 +198,9 @@ footer{
 input{
     padding:20px 70px;
     border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+a> h4{
+    color: black;
 }
