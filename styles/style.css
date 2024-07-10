@@ -2,18 +2,22 @@
 *{
     font-family: "Azeret Mono", monospace;
     box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
 /* nav section design  */
 .logo{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 900;
 }
 .nav-button{
-    padding: 17px 24px;
-    color: #0D1321;
-    font-size: 20px;
+    padding: 5px 44px;
+    color: #3d424d;
+    font-size: 18px;
     font-weight: 600;
+    border-radius: 5px;
+    border:1px solid#8b8e96;
+    background-color:#ffffff;
 }
 nav{
     display: flex;
@@ -53,8 +57,13 @@ nav{
 
 /* common styles... */
 .description{
-    color:#565a64;
+    color:#3d424d;
     font-size: 16px;
+    line-height: 28px;
+}
+.learn-more-button{
+  padding: 10px 20px; 
+  border:1px solid#8b8e96; 
 }
 .title{
     font-size: 32px;
@@ -62,6 +71,9 @@ nav{
     font-weight: 800px;
 }
 
+.underline-design-text{
+text-decoration: underline;
+}
 
 /* activists part */
 .activists-details{
@@ -69,8 +81,8 @@ nav{
     height: auto;
     align-items: center;
     text-align: center;
-    margin: auto;
-    padding:100px 50px ;
+    margin: 0 auto;
+    padding:80px 50px ;
     background-color: #FaFAFb;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -84,7 +96,7 @@ margin: 50px 80px;
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
-    padding: 30px 60px;
+    padding: 30px;
   
 }
 .second-activist{
@@ -93,19 +105,22 @@ margin: 50px 80px;
 
 
 /* ........insparation-section */
+iframe{
+    padding-top: 20px;
+}
 
 .insparation-section{
     width: 100%;
     height: auto;
     align-items: center;
     text-align: center;
-    margin: auto;
-    margin-bottom: 80px;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .single-target{
     display: flex;
-    /* justify-content: space-around; */
+    padding-top: 20px;
   
 }
 .skills-info{
@@ -115,11 +130,24 @@ margin-right: 20px;
 border-radius: 10px;
 text-align: left;
 }
-
+/* current target section */
+.current-target-section{
+    background-color: #ffffff;
+    }
+    .html-card{
+        background-color: #fff6f4;
+    }
+    .css-card{
+        background-color: #f2f6fe;
+    }
+    .js-card{
+        background-color: #fffdf2;
+    }
 /* next target style */
+
 .next-target-container{
   
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
 }
 .next-target-card{
 
@@ -129,7 +157,8 @@ text-align: left;
     align-items: center;
     border: solid 1px rgb(245, 241, 239);
     border-radius: 10px;
-    margin-top: 40px;
+  padding: 30px;
+  margin-bottom: 20px;
 }
 .target-info{
 text-align: left;
@@ -141,22 +170,45 @@ line-height: 30px;
 }
 
 /* support section design */
-.support-background{
+.support-background {
     background-image: url("../assets/handshake.jpg");
     border-radius: 20px;
-  filter:brightness(60%);
-}
+    position: relative;
+  }
+  
+  .support-background::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here (0.5 is 50% opaque black) */
+    border-radius: inherit;
+  }
+  .support-background > h1{
+    color: #ffffff;
+
+  }
 .text-white{
     color: #ffffff;
+    z-index: 99999;
 
 }
 
 /* footer section design */
 
 footer{
-    background-color: #d3d6df;
+    background-color: #f8f8f8;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 40px;
+}
+
+/* input element design */
+input{
+    padding:20px 70px;
+    border-radius: 10px;
 }
