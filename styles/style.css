@@ -53,7 +53,7 @@ nav{
 
 /* common styles... */
 .description{
-    color:#0D1321 ;
+    color:#565a64;
     font-size: 16px;
 }
 .title{
@@ -108,9 +108,34 @@ margin: 50px 80px;
     /* justify-content: space-around; */
   
 }
-.target-info{
+.skills-info{
     padding: 50px 40px;
     background-color: #ffffff;
 margin-right: 20px;
 border-radius: 10px;
+text-align: left;
+}
+
+/* next target style */
+.next-target-container{
+  
+    background-color: #ffffff;
+}
+.next-target-card{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: solid 1px rgb(245, 241, 239);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.target-info{
+text-align: left;
+line-height: 30px;
+}
+
+.activitist-image{
+  margin-right: 40px;
 }
